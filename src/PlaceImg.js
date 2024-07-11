@@ -8,7 +8,7 @@ const PlaceImg = ({place,index=0,className=null}) => {
         className = 'object-cover cursor-pointer h-80 w-80 rounded-2xl ';
     }
   return (
-        <img className={className} src={"https://booking-app-backend-two.vercel.app/uploads/"+place.photos?.[index]} alt='soon...'/>
+        <img className={className} src={"https://booking-app-backend-3rkn.onrender.com/uploads/"+place.photos?.[index]} alt='soon...'/>
   )
 }
 
