@@ -13,7 +13,7 @@ import BookingPages from "./pages/BookingPages";
 import BookingPage from "./pages/BookingPage";
 
 
-axios.defaults.baseURL = 'https://booking-app-backend-3rkn.onrender.com/'
+axios.defaults.baseURL = 'http://localhost:4003/'
 axios.defaults.withCredentials = true  //necessary to send cookie with each request
 function App() {
   return (
