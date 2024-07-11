@@ -19,7 +19,7 @@ const PlaceGallary = ({place}) => {
                     {
                    place?.photos?.length>0 && place.photos.map(photo => (
                         <div>
-                          <img className='h-screen w-full' src={"https://booking-app-backend-two.vercel.app/uploads/"+photo}/>
+                          <img className='h-screen w-full' src={"https://booking-app-backend-3rkn.onrender.com/uploads/"+photo}/>
                         </div>
                    ))
                }
