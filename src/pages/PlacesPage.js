@@ -28,7 +28,7 @@ const PlacesPage = () => {
              <Link to={'/account/places/'+place._id} className='flex flex-col items-center cursor-pointer gap-4 border-2 border-gray-500  p-4 mb-8  rounded-2xl '>
                  <div className=' text-center h-auto w-full max-w-sm '>
                    { place.photos.length>0 && (
-                     <img className='object-fill rounded-2xl' src = {'https://booking-app-backend-two.vercel.app/uploads/'+ place.photos[0]} alt = "" />
+                     <img className='object-fill rounded-2xl' src = {'https://booking-app-backend-f442.onrender.com/uploads/'+ place.photos[0]} alt = "" />
                    )}
                  </div>
                  <div className='opacity-75'>
