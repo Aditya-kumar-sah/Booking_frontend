@@ -8,7 +8,7 @@ const PlaceImg = ({place,index=0,className=null}) => {
         className = 'object-cover cursor-pointer h-80 w-80 rounded-2xl ';
     }
   return (
-        <img className={className} src={"http://localhost:4003/uploads/"+place.photos?.[index]} alt='soon...'/>
+        <img className={className} src={"https://booking-app-backend-f442.onrender.com/uploads/"+place.photos?.[index]} alt='soon...'/>
   )
 }
 
