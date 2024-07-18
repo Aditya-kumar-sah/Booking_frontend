@@ -9,10 +9,10 @@ const PlacesPage = () => {
   useEffect(() => {
     axios.get('/userplaces').then(({data}) => {
             setPlaces(data);
-    })
-  },[]).catch((error)=>{
+    }).catch((error)=>{
      console.log(error);
   })
+  },[])
   return (
     <div  className=' pt-56 lg:pt-32'>
         <AccountNav/>
