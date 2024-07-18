@@ -23,7 +23,7 @@ const IndexPage = () => {
           <Link to={'/place/'+place._id}>
          
                   {place.photos?.[0] && (
-                     <img className='hidden md:block rounded-2xl h-4/5 w-full pb-2 ' src={"https://booking-app-backend-two.vercel.app/uploads/"+place.photos?.[0]} alt=''/>
+                     <img className='hidden md:block rounded-2xl h-4/5 w-full pb-2 ' src={"https://booking-app-backend-f442.onrender.com/uploads/"+place.photos?.[0]} alt=''/>
                    )}
          
               <h2 className='font-bold pl-2 text-sm lg:text-md text-white '>{place.address}</h2>
