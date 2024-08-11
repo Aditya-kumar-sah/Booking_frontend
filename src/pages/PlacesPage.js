@@ -10,7 +10,7 @@ const PlacesPage = () => {
     axios.get('/userplaces').then(({data}) => {
             setPlaces(data);
     }).catch((error)=>{
-     console.log(error);
+     console.log(places);
   })
   },[])
   return (
